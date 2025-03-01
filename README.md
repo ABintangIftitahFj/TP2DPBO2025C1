@@ -2,7 +2,7 @@
 Saya A Bintang Iftitah FJ dengan NIM 2305995 mengerjakan soal Tugas Praktikum 2 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 
-**#DIAGRAM PROGRAM**
+**# DIAGRAM PROGRAM**
 ![diagram_tp2](https://github.com/user-attachments/assets/19fce52a-6ff9-48d2-a54a-e3a1ed73592c)
 
 **#Program Desain**
@@ -30,7 +30,7 @@ Atribut :
 **# DOKUMENTASI PROGRAM**
 Pada program Java, Python dan CPP memiliki alur sama  , namun pada CPP metode constructor nya berbeda karena parameter nya tidak semua atribut dari kelas sebelumnya , sehingga pada saat memasukkan data hardcode menjadi lebih panjang, jika concern pada memory allocation metode construct ini seperti kurang bagus untuk digunakan. Pada 3 bahasa ini data disimpan dalam list of object. Pada php data disimpan dalam post dan get temporary.
 
-#apa yang bisa dilakukan user ?
+# apa yang bisa dilakukan user ?
 1. user dapat memasukkann data sebanyak n buah dan mengisi semua atribut pada class yang ada
 2. user dapat melihat data yang telah dimasukkan pada tabel yang di desain dinamis
 3. exit untuk keluar dari program
