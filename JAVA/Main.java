@@ -17,11 +17,12 @@ public class Main {
         List<Baju> listBaju = new ArrayList<>();
 
         // Menambahkan 5 data default
-        Baju baju1 = new Baju(1, "Kemeja Putih", 150000, 10, "Kancing", "Plastik", "Putih", 40, "Zara");
-        Baju baju2 = new Baju(2, "Kaos Hitam", 100000, 15, "Sablon", "Katun", "Hitam", 42, "H&M");
-        Baju baju3 = new Baju(3, "Jaket Denim", 300000, 5, "Resleting", "Logam", "Silver", 44, "Levi's");
-        Baju baju4 = new Baju(4, "Sweater Abu", 250000, 8, "Bordir", "Benang", "Abu-abu", 46, "Uniqlo");
-        Baju baju5 = new Baju(5, "Blazer Navy", 500000, 3, "Kancing", "Logam", "Hitam", 48, "Zara");
+        Baju baju1 = new Baju(1, "Baju Anjing Putih", 150000, 10, "Kancing", "Plastik", "Putih", 40, "Zara");
+        Baju baju2 = new Baju(2, "Baju Kucing Hitam", 100000, 15, "Sablon", "Katun", "Hitam", 42, "H&M");
+        Baju baju3 = new Baju(3, "Jaket Anjing Denim", 300000, 5, "Resleting", "Logam", "Silver", 44, "Levi's");
+        Baju baju4 = new Baju(4, "Sweater Kucing Abu", 250000, 8, "Bordir", "Benang", "Abu-abu", 46, "Uniqlo");
+        Baju baju5 = new Baju(5, "Blazer Anjing Navy", 500000, 3, "Kancing", "Logam", "Hitam", 48, "Zara");
+        
 
         listBaju.add(baju1);
         listBaju.add(baju2);
@@ -46,7 +47,7 @@ public class Main {
                     addData(listBaju, scanner);
                     break;
                 case 2:
-                    System.out.println("\nHere your Data Sir:");
+                    System.out.println("\u001B[32m\nHere your Data Sir:\u001B[0m");
                     showData(listBaju);
                     break;
                 case 3:
@@ -62,46 +63,36 @@ public class Main {
     }
 
     private static void addData(List<Baju> listBaju, Scanner scanner) {
-        System.out.print("Masukkan jumlah data yang ingin ditambahkan: ");
         int n = scanner.nextInt();
         scanner.nextLine(); // Consume newline
-
+    
         for (int i = 0; i < n; i++) {
-            System.out.print("Masukkan ID: ");
             int id = scanner.nextInt();
             scanner.nextLine(); // Consume newline
-
-            System.out.print("Masukkan Nama Produk: ");
+    
             String namaProduk = scanner.nextLine();
-
-            System.out.print("Masukkan Harga Produk: ");
+    
             int hargaProduk = scanner.nextInt();
-
-            System.out.print("Masukkan Stok Produk: ");
+    
             int stokProduk = scanner.nextInt();
             scanner.nextLine(); // Consume newline
-
-            System.out.print("Masukkan Jenis Aksesoris: ");
+    
             String jenisAksesoris = scanner.nextLine();
-
-            System.out.print("Masukkan Bahan Aksesoris: ");
+    
             String bahanAksesoris = scanner.nextLine();
-
-            System.out.print("Masukkan Warna Aksesoris: ");
+    
             String warnaAksesoris = scanner.nextLine();
-
-            System.out.print("Masukkan Size: ");
+    
             int size = scanner.nextInt();
             scanner.nextLine(); // Consume newline
-
-            System.out.print("Masukkan Merk: ");
+    
             String merk = scanner.nextLine();
-
+    
             Baju baju = new Baju(id, namaProduk, hargaProduk, stokProduk, jenisAksesoris, bahanAksesoris, warnaAksesoris, size, merk);
             listBaju.add(baju);
         }
-
-        System.out.println("\nData berhasil ditambahkan.");
+    
+        System.out.println("\u001B[32m\nData berhasil ditambahkan.\u001B[0m");
     }
 
     private static void showData(List<Baju> listBaju) {

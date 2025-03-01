@@ -5,13 +5,15 @@ class Petshop {
     private $nama_produk;
     private $harga_produk;
     private $stok_produk;
+    private $gambar_produk;
 
     // Konstruktor default
-    public function __construct($id = null, $nama_produk = null, $harga_produk = null, $stok_produk = null) {
+    public function __construct($id = null, $nama_produk = null, $harga_produk = null, $stok_produk = null, $gambar_produk = null) {
         $this->id = $id;
         $this->nama_produk = $nama_produk;
         $this->harga_produk = $harga_produk;
         $this->stok_produk = $stok_produk;
+        $this->gambar_produk = $gambar_produk;
     }
 
     public function getId() {
@@ -44,6 +46,14 @@ class Petshop {
 
     public function setStokProduk($stok_produk) {
         $this->stok_produk = $stok_produk;
+    }
+
+    public function getGambarProduk() {
+        return $this->gambar_produk;
+    }
+
+    public function setGambarProduk($gambar_produk) {
+        $this->gambar_produk = $gambar_produk;
     }
 }
 

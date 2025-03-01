@@ -24,55 +24,57 @@ int main()
     int len_merk = 5;
 
     // Initialize default data
-    baju1.set_id(1);
-    baju1.set_nama_produk("Kemeja Putih");
-    baju1.set_harga_produk(150000);
-    baju1.set_stok_produk(10);
-    baju1.set_jenis_aksesoris("Kancing");
-    baju1.set_bahan_aksesoris("Plastik");
-    baju1.set_warna_aksesoris("Putih");
-    baju1.set_size(40);
-    baju1.set_merk("Zara");
+   // Initialize default data
+   baju1.set_id(1);
+   baju1.set_nama_produk("Baju Anjing Putih");
+   baju1.set_harga_produk(150000);
+   baju1.set_stok_produk(10);
+   baju1.set_jenis_aksesoris("Kancing");
+   baju1.set_bahan_aksesoris("Plastik");
+   baju1.set_warna_aksesoris("Putih");
+   baju1.set_size(40);
+   baju1.set_merk("Zara");
 
-    baju2.set_id(2);
-    baju2.set_nama_produk("Kaos Hitam");
-    baju2.set_harga_produk(100000);
-    baju2.set_stok_produk(15);
-    baju2.set_jenis_aksesoris("Sablon");
-    baju2.set_bahan_aksesoris("Katun");
-    baju2.set_warna_aksesoris("Hitam");
-    baju2.set_size(42);
-    baju2.set_merk("H&M");
+   baju2.set_id(2);
+   baju2.set_nama_produk("Baju Kucing Hitam");
+   baju2.set_harga_produk(100000);
+   baju2.set_stok_produk(15);
+   baju2.set_jenis_aksesoris("Sablon");
+   baju2.set_bahan_aksesoris("Katun");
+   baju2.set_warna_aksesoris("Hitam");
+   baju2.set_size(42);
+   baju2.set_merk("H&M");
 
-    baju3.set_id(3);
-    baju3.set_nama_produk("Jaket Denim");
-    baju3.set_harga_produk(300000);
-    baju3.set_stok_produk(5);
-    baju3.set_jenis_aksesoris("Resleting");
-    baju3.set_bahan_aksesoris("Logam");
-    baju3.set_warna_aksesoris("Silver");
-    baju3.set_size(44);
-    baju3.set_merk("Levi's");
+   baju3.set_id(3);
+   baju3.set_nama_produk("Jaket Anjing Denim");
+   baju3.set_harga_produk(300000);
+   baju3.set_stok_produk(5);
+   baju3.set_jenis_aksesoris("Resleting");
+   baju3.set_bahan_aksesoris("Logam");
+   baju3.set_warna_aksesoris("Silver");
+   baju3.set_size(44);
+   baju3.set_merk("Levi's");
 
-    baju4.set_id(4);
-    baju4.set_nama_produk("Sweater Abu");
-    baju4.set_harga_produk(250000);
-    baju4.set_stok_produk(8);
-    baju4.set_jenis_aksesoris("Bordir");
-    baju4.set_bahan_aksesoris("Benang");
-    baju4.set_warna_aksesoris("Abu-abu");
-    baju4.set_size(46);
-    baju4.set_merk("Uniqlo");
+   baju4.set_id(4);
+   baju4.set_nama_produk("Sweater Kucing Abu");
+   baju4.set_harga_produk(250000);
+   baju4.set_stok_produk(8);
+   baju4.set_jenis_aksesoris("Bordir");
+   baju4.set_bahan_aksesoris("Benang");
+   baju4.set_warna_aksesoris("Abu-abu");
+   baju4.set_size(46);
+   baju4.set_merk("Uniqlo");
 
-    baju5.set_id(5);
-    baju5.set_nama_produk("Blazer Navy");
-    baju5.set_harga_produk(500000);
-    baju5.set_stok_produk(3);
-    baju5.set_jenis_aksesoris("Kancing");
-    baju5.set_bahan_aksesoris("Logam");
-    baju5.set_warna_aksesoris("Hitam");
-    baju5.set_size(48);
-    baju5.set_merk("Zara");
+   baju5.set_id(5);
+   baju5.set_nama_produk("Blazer Anjing Navy");
+   baju5.set_harga_produk(500000);
+   baju5.set_stok_produk(3);
+   baju5.set_jenis_aksesoris("Kancing");
+   baju5.set_bahan_aksesoris("Logam");
+   baju5.set_warna_aksesoris("Hitam");
+   baju5.set_size(48);
+   baju5.set_merk("Zara");
+
 
     list_baju.push_back(baju1);
     list_baju.push_back(baju2);

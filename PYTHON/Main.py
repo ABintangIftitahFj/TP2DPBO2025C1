@@ -16,7 +16,7 @@ def add_data(list_baju):
 
         baju = Baju(id, nama_produk, harga_produk, stok_produk, jenis_aksesoris, bahan_aksesoris, warna_aksesoris, size, merk)
         list_baju.append(baju)
-    print("\nData berhasil ditambahkan.")
+    print("\033[92m\nData berhasil ditambahkan.\033[0m")
 
 
 def show_data(list_baju):
@@ -57,12 +57,13 @@ def show_data(list_baju):
 
 def main():
     list_baju = [
-        Baju(1, "Kemeja Putih", 150000, 10, "Kancing", "Plastik", "Putih", 40, "Zara"),
-        Baju(2, "Kaos Hitam", 100000, 15, "Sablon", "Katun", "Hitam", 42, "H&M"),
-        Baju(3, "Jaket Denim", 300000, 5, "Resleting", "Logam", "Silver", 44, "Levi's"),
-        Baju(4, "Sweater Abu", 250000, 8, "Bordir", "Benang", "Abu-abu", 46, "Uniqlo"),
-        Baju(5, "Blazer Navy", 500000, 3, "Kancing", "Logam", "Hitam", 48, "Zara")
-    ]
+    Baju(1, "Baju Anjing Putih", 150000, 10, "Kancing", "Plastik", "Putih", 40, "Zara"),
+    Baju(2, "Baju Kucing Hitam", 100000, 15, "Sablon", "Katun", "Hitam", 42, "H&M"),
+    Baju(3, "Jaket Anjing Denim", 300000, 5, "Resleting", "Logam", "Silver", 44, "Levi's"),
+    Baju(4, "Sweater Kucing Abu", 250000, 8, "Bordir", "Benang", "Abu-abu", 46, "Uniqlo"),
+    Baju(5, "Blazer Anjing Navy", 500000, 3, "Kancing", "Logam", "Hitam", 48, "Zara")
+
+        ]
 
     pilihan = 0
     while pilihan != 3:
@@ -75,6 +76,7 @@ def main():
         if pilihan == 1:
             add_data(list_baju)
         elif pilihan == 2:
+            print("\033[92mHere is the list of data:\033[0m")
             show_data(list_baju)
         elif pilihan == 3:
             print("Terima kasih telah menggunakan program ini.")
@@ -89,19 +91,3 @@ if __name__ == "__main__":
 
 
 
-# def add_data(list_baju):
-#     n = int(input("Masukkan jumlah data yang ingin ditambahkan: "))
-#     for _ in range(n):
-#         id = int(input("Masukkan ID: "))
-#         nama_produk = input("Masukkan Nama Produk: ")
-#         harga_produk = int(input("Masukkan Harga Produk: "))
-#         stok_produk = int(input("Masukkan Stok Produk: "))
-#         jenis_aksesoris = input("Masukkan Jenis Aksesoris: ")
-#         bahan_aksesoris = input("Masukkan Bahan Aksesoris: ")
-#         warna_aksesoris = input("Masukkan Warna Aksesoris: ")
-#         size = int(input("Masukkan Size: "))
-#         merk = input("Masukkan Merk: ")
-
-#         baju = Baju(id, nama_produk, harga_produk, stok_produk, jenis_aksesoris, bahan_aksesoris, warna_aksesoris, size, merk)
-#         list_baju.append(baju)
-#     print("\nData berhasil ditambahkan.")

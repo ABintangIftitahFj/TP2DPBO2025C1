@@ -7,8 +7,8 @@ class Baju extends Aksesoris {
     private $merk;
 
     // Konstruktor default
-    public function __construct($id = 0, $nama_produk = "", $harga_produk = 0, $stok_produk = 0, $jenis_aksesoris = "", $bahan_aksesoris = "", $warna_aksesoris = "", $size = 0, $merk = "") {
-        parent::__construct($id, $nama_produk, $harga_produk, $stok_produk, $jenis_aksesoris, $bahan_aksesoris, $warna_aksesoris);
+    public function __construct($id = 0, $nama_produk = "", $harga_produk = 0, $stok_produk = 0, $gambar_produk = "", $jenis_aksesoris = "", $bahan_aksesoris = "", $warna_aksesoris = "", $size = 0, $merk = "") {
+        parent::__construct($id, $nama_produk, $harga_produk, $stok_produk, $gambar_produk, $jenis_aksesoris, $bahan_aksesoris, $warna_aksesoris);
         $this->size = $size;
         $this->merk = $merk;
     }
