@@ -11,7 +11,7 @@ Saya A Bintang Iftitah FJ dengan NIM 2305995 mengerjakan soal Tugas Praktikum 2 
   Pada setiap kode program sudah terdapat sudah terdapat 5 data dummy hardcode. Berikut penjelasan class dan dokumentasinya.
 
 
-# Class Petshop -> Main Parrent
+Class Petshop -> Main Parrent
 Atribut :
 1. id bertipe integer user bebas melakukan setting id nya tidak merupakan increment otomatis
 2. nama_produk bertipe string untuk menyimpan nama produk
@@ -19,18 +19,18 @@ Atribut :
 4. stok_produk bertipe integer untuk menyimpan stok_produk
 5. foto_produk bertipe jpg hanya terdapat pada program PHP
 
-#  jenis_produk bertipe string untuk menyimpan jenis_aksesoris
+1. jenis_produk bertipe string untuk menyimpan jenis_aksesoris
 2. bahan_produk bertipe string untuk menyimpan informasi bahan_produk
 3. warna_produk bertipe string untuk menyimpan informasi warna produk
 
-#class Baju -> dapat mengakses kedua kelas lainnya
+class Baju -> dapat mengakses kedua kelas lainnya
 1. size bertipe string untuk menyimpan ukuran
 2. merk bertipe string menyimpan merk dari pakaian
 
-**# DOKUMENTASI PROGRAM**
+**# Alur Program**
 Pada program Java, Python dan CPP memiliki alur sama  , namun pada CPP metode constructor nya berbeda karena parameter nya tidak semua atribut dari kelas sebelumnya , sehingga pada saat memasukkan data hardcode menjadi lebih panjang, jika concern pada memory allocation metode construct ini seperti kurang bagus untuk digunakan. Pada 3 bahasa ini data disimpan dalam list of object. Pada php data disimpan dalam post dan get temporary.
 
-# apa yang bisa dilakukan user ?
+apa yang bisa dilakukan user ?
 1. user dapat memasukkann data sebanyak n buah dan mengisi semua atribut pada class yang ada
 2. user dapat melihat data yang telah dimasukkan pada tabel yang di desain dinamis
 3. exit untuk keluar dari program
